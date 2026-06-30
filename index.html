@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis XV | Renee</title>
+  <meta name="description" content="Invitación digital para XV años" />
+  <meta property="og:title" content="Mis XV | Renee" />
+  <meta property="og:description" content="Te invito a celebrar mis XV años" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="intro" class="intro-screen">
+    <div class="intro-card">
+      <p class="overline">Invitación Personal</p>
+      <h1>Sofía</h1>
+      <p>Mis XV años</p>
+      <button id="openInvite" class="btn btn-gold">Abrir invitación</button>
+      <small>Toca para comenzar</small>
+    </div>
+  </div>
+
+  <audio id="music" loop>
+    <source src="assets/audio/musica.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Reproducir o pausar música">♫</button>
+
+  <main class="site">
+    <section class="hero section">
+      <div class="sparkles"></div>
+      <div class="hero-content reveal">
+        <p class="overline">Con la bendición de Dios y mis padres</p>
+        <h1>Renee Bouquet</h1>
+        <h2>Mis XV años</h2>
+        <p class="date">Viérnes 23 de Octubre de 2026</p>
+        <a class="btn btn-outline" href="#detalles">Ver detalles</a>
+      </div>
+    </section>
+
+    <section class="section message reveal">
+      <div class="container narrow">
+        <p class="script">Hay momentos que se sueñan toda la vida...</p>
+        <h2>Y quiero compartir este día tan especial contigo</h2>
+        <p>Me dará mucha alegría contar con tu presencia para celebrar mis XV años junto a mi familia y amigos.</p>
+      </div>
+    </section>
+
+    <section class="section countdown-section reveal">
+      <div class="container">
+        <p class="overline">Faltan</p>
+        <div id="countdown" class="countdown">
+          <div><strong id="days">00</strong><span>Días</span></div>
+          <div><strong id="hours">00</strong><span>Horas</span></div>
+          <div><strong id="minutes">00</strong><span>Min</span></div>
+          <div><strong id="seconds">00</strong><span>Seg</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="detalles" class="section details reveal">
+      <div class="container grid-2">
+        <article class="detail-card">
+          <span class="icon">⛪</span>
+          <h3>Ceremonia religiosa</h3>
+          <p>Parroquia Nuestra Señora de Guadalupe</p>
+          <p class="time">5:00 PM</p>
+          <a class="btn btn-small" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Parroquia+Nuestra+Se%C3%B1ora+de+Guadalupe+Monterrey">Cómo llegar</a>
+        </article>
+
+        <article class="detail-card">
+          <span class="icon">✨</span>
+          <h3>Recepción</h3>
+          <p>Zibá Eventos</p>
+          <p class="time">7:30 PM</p>
+          <a class="btn btn-small" target="_blank" href="https://www.google.com/maps/place/Zib%C3%A1+Eventos/@25.7635115,-100.2903859,16.25z/data=!4m6!3m5!1s0x866295245270bc89:0xac862c26ae317b9a!8m2!3d25.7673578!4d-100.2912062!16s%2Fg%2F11rckzq5wz?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D">Cómo llegar</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section parents reveal">
+      <div class="container narrow">
+        <p class="overline">Mis padres</p>
+        <h2>Angel Bouquet & Diana Escobedo</h2>
+        <p>Gracias por acompañarnos en este día tan importante para nuestra familia.</p>
+      </div>
+    </section>
+
+    <section class="section gallery reveal">
+      <div class="container">
+        <p class="overline">Galería</p>
+        <h2>Un sueño hecho realidad</h2>
+        <div class="gallery-grid">
+          <div class="photo placeholder">Foto 1</div>
+          <div class="photo placeholder">Foto 2</div>
+          <div class="photo placeholder">Foto 3</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dress reveal">
+      <div class="container narrow">
+        <p class="overline">Código de vestimenta</p>
+        <h2>Formal</h2>
+        <p>Se reserva el color rosa para la quinceañera.</p>
+      </div>
+    </section>
+
+    <section class="section rsvp reveal">
+      <div class="container narrow">
+        <p class="script">Tu presencia es mi mejor regalo</p>
+        <h2>Confirma tu asistencia</h2>
+        <p>Ayúdanos confirmando antes del 30 de agosto.</p>
+        <a id="whatsappBtn" class="btn btn-gold" target="_blank" href="https://wa.me/528112345678?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20los%20XV%20a%C3%B1os%20de%20Sof%C3%ADa.">Confirmar por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
