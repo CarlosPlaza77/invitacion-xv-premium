@@ -1,0 +1,23 @@
+const INVITACION = {
+  firstName: 'Renée',
+  fullName: 'Renée Bouquet',
+  displayDate: '23 Octubre 2026',
+  longDate: 'Viernes 23 de Octubre de 2026',
+  eventDate: '2026-10-23T17:00:00',
+  message: 'Me dará mucha alegría contar con tu presencia para celebrar mis XV años junto a mi familia y amigos.',
+  parents: 'Ángel Bouquet & Diana Escobedo',
+  churchName: 'Parroquia Nuestra Señora de Guadalupe',
+  churchTime: '5:00 PM',
+  churchMap: 'https://www.google.com/maps/search/?api=1&query=Parroquia+Nuestra+Se%C3%B1ora+de+Guadalupe+Monterrey',
+  venueName: 'Zibá Eventos',
+  venueTime: '7:30 PM',
+  venueMap: 'https://www.google.com/maps/place/Zib%C3%A1+Eventos/@25.7635115,-100.2903859,16.25z/data=!4m6!3m5!1s0x866295245270bc89:0xac862c26ae317b9a!8m2!3d25.7673578!4d-100.2912062',
+  dressCode: 'Formal',
+  dressNote: 'Se reserva el color rosa para la quinceañera.',
+  rsvpLimit: 'Ayúdanos confirmando antes del 30 de agosto.',
+  whatsappNumber: '528112345678',
+  whatsappMessage: 'Hola, confirmo mi asistencia a los XV años de Renée.',
+  music: 'assets/audio/musica.mp3',
+  heroImage: 'assets/img/hero.jpg',
+  gallery: ['assets/img/foto1.jpg','assets/img/foto2.jpg','assets/img/foto3.jpg']
+};
